@@ -21,7 +21,7 @@ public class MyFunctions {
         toast.show();
     }
 
-    public static void getDate(final TextView textView){
+    public static void getDate(Context context,final TextView textView){
         Calendar calendar = Calendar.getInstance();
         new DatePickerDialog(context, new DatePickerDialog.OnDateSetListener() {
             @Override
