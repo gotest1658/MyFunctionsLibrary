@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 import java.util.Calendar;
 
-public class MyFunctions {
+public class MyFunctions_bak {
     public static Toast toast;
     public static Context context;
 
