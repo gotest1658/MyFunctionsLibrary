@@ -12,12 +12,12 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-public class SQLiteImport_ExportDB extends SQLiteOpenHelper {
+public class MyFunctions_SQLiteImport_ExportDB extends SQLiteOpenHelper {
     private static Context context;
     private static String DB_PATH;
     private static String DB_NAME;
 
-    public SQLiteImport_ExportDB(Context context, String DB_NAME) {
+    public MyFunctions_SQLiteImport_ExportDB(Context context, String DB_NAME) {
         super(context, DB_NAME, null, 1);
         this.context = context;
         this.DB_NAME = DB_NAME;
