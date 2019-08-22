@@ -63,7 +63,7 @@ public class MyFunctions {
                 .show();
     }
 
-    public void exportSharedPreferences(Context context, String path) {
+    public static void exportSharedPreferences(Context context, String path) {
         InputStream myInput = null;
         OutputStream myOutput = null;
         try {
@@ -83,7 +83,7 @@ public class MyFunctions {
         }
     }
 
-    public void importSharedPreferences(Context context, String path) {
+    public static void importSharedPreferences(Context context, String path) {
         InputStream myInput = null;
         OutputStream myOutput = null;
         try {
